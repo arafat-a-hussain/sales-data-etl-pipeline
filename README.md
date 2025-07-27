@@ -47,3 +47,10 @@ python3 etl_script.py
 **Arafat Asrar Hussain**  
 [GitHub](https://github.com/arafat-a-hussain)
 
+
+## ▶️ How to Run
+
+```bash
+pip install -r requirements.txt
+python3 etl_script.py
+```
