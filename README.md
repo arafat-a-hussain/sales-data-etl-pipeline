@@ -1,26 +1,49 @@
-# Sales Data ETL Pipeline
+# 📊 Sales Data ETL Pipeline
 
-This project demonstrates a simple ETL (Extract, Transform, Load) pipeline built with Python.
-
-### 📌 Features
-- Extracts sales data from a CSV source
-- Transforms it by cleaning and enriching
-- Loads into a SQLite database
-
-### 🔧 Technologies
-- Python
-- Pandas
-- SQLite3
-
-### 📁 File Structure
-- `etl_script.py` – main ETL logic
-- `data/sales_data.csv` – sample input data
-- `database/sales.db` – SQLite output
+This project demonstrates a simple but complete **ETL (Extract, Transform, Load)** pipeline using Python and SQLite.
 
 ---
 
-**Run the ETL**:
+## 🚀 Features
+
+- Extracts sales data from a CSV file (auto-generated if missing)
+- Transforms it by adding a calculated tax column
+- Loads the final data into a SQLite database
+
+---
+
+## 🧰 Technologies Used
+
+- Python 3
+- Pandas
+- SQLite3
+
+---
+
+## 📂 Project Structure
+
+```
+etl_pipeline/
+├── data/
+│   └── sales_data.csv
+├── database/
+│   └── sales.db
+├── etl_script.py
+└── README.md
+```
+
+---
+
+## ▶️ How to Run
 
 ```bash
 python3 etl_script.py
+```
+
+---
+
+## ✍️ Author
+
+**Arafat Asrar Hussain**  
+[GitHub](https://github.com/arafat-a-hussain)
 
